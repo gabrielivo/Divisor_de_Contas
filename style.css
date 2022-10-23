@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+h2{
+     font-family: 'Alfa Slab One', cursive;
+     font-size: 1.3em;
+    }
+
+ h1{
+        font-family: 'Alfa Slab One', cursive;
+        font-size: 1.7em;
+ }
+ 
+ p{
+    font-size: 1em;
+ }
+
+header{
+    text-align: center;
+    background-color: #accfee;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+}
+
+main{
+    padding: 10px;
+    
+}
+
+#pp{
+    border: 1px solid rgba(128, 128, 128, 0.288);
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+#nprod, #vprod, #divisor, #nomecliente{
+    width: 96%;
+    height: 8px;
+}
+
+.botao{
+    padding: 7px;
+    background-color: #accfee;
+    color: rgb(0, 0, 0);
+    border: 0px;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+
+.botao:hover{
+    background-color: #4193db;
+    transition: all ease 0.6s;
+}
+
+#tab{
+    margin-top: 20px;
+}
+input{
+    padding: 10px;
+    margin-top: 7px;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid rgba(128, 128, 128, 0.534);
+}
+
+table thead{
+    background-color: rgba(128, 128, 128, 0.411);
+}
+
+table td img{
+    width: 20px;
+}
+.center{
+    text-align: center;
+}
+
+table td{
+    text-align: center;
+    padding: 3px;
+}
+#butt{
+    text-align: center;
+    padding:5px
+}
+#divinst{
+    text-align: center;
+    width: 60%;
+    max-width: 500px;
+    max-height: 470px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+#maininst{
+    padding: 0%;
+    margin: 0%;
+    height: 100vh;
+    width: 100vw;
+    background-color: #accfee;
+    position: relative;
+}

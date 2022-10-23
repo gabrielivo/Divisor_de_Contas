@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header> <h1>Divisor de contas</h1> </header>
+    <main>
+
+        <h2>Produtos</h2>
+
+        <div id="pp">
+            <p>Nome</p>
+            <input  placeholder="Nome" type="text" name="nomecliente" id="nomecliente">
+            <br><br>
+            <p>Produto</p>
+            <input  placeholder="Nome do produto" type="text" name="nprod" id="nprod">
+            <br><br>
+            <p>Preço</p>
+            <input placeholder="Valor do produto" type="number" name="vprod" id="vprod">
+            <br><br>
+            <p>Quntas pessoas consumiram esse produto?</p>
+            <input
+            placeholder="Se o cliente consumiu sozinho, digite 1."  type="number" name="divisor" id="divisor">
+            <br><br>
+            <button  onclick="produtos.salvar()"  id="b1" class="botao">Salvar</button>
+            <input onclick="produtos.cancelar()" class="botao" type="button" value="Cancelar">
+            <button onclick="produtos.resetar()" id="resetar" class="botao">Resetar</button>
+            <a target="_blank" href="instruções.html"><button onclick="produtos.instructions()" class="botao">Instruções</button></a>
+        </div>
+
+        <div id="tab">
+            <table border="1" >
+                <thead>
+                    <th>ID</th>
+                    <th>Produto</th>
+                    <th>Valor do produto</th>
+                    <th>Número de consumidores</th>
+                    <th>Valor a Pagar</th>
+                    <th>Opções</th>
+                </thead>
+                <tbody id="tbody">
+                </tbody>
+            </table>
+        </div>
+
+        <div id="butt">
+            <button class="botao"
+            onclick="produtos.finalizar()">finalizar</button>
+        </div>
+
+        <div id="resp">
+        </div>
+        <div id="resp1">
+        </div>
+        <div id="resp2">
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
